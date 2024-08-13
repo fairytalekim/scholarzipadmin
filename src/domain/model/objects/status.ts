@@ -1,0 +1,1 @@
+type Status = "trial" | "active" | "expired" | "archived";

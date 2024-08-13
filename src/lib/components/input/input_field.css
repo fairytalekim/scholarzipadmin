@@ -1,0 +1,52 @@
+@font-face {
+    font-family: PretendardVariable;
+    src: url("../../../fonts/PretendardVariable.woff2");
+}
+
+.group {
+    display: flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+}
+
+.input {
+    font-family: PretendardVariable;
+    height: 56px;
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f2f4f6;
+    transition: .3s ease;
+}
+
+textarea {
+    font-family: PretendardVariable;
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f2f4f6;
+    transition: .3s ease;
+}
+
+textarea:focus,
+textarea:hover {
+    outline: none;
+    border-color: #ff6600;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.input::placeholder {
+    color: #b0b8c1;
+}
+
+.input:focus,
+input:hover {
+    outline: none;
+    border-color: #ff6600;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}

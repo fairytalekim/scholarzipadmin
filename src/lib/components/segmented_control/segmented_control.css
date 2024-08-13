@@ -1,0 +1,29 @@
+.sc_container {
+  display: flex;
+  padding: 4px;
+  background-color: #f2f4f6;
+  border-radius: 12px;
+  position: relative;
+  justify-content: space-around;
+  user-select: none;
+}
+
+.sc_indicator {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  height: calc(100% - 8px);
+  border-radius: 8px; 
+  transition: 0.5s;
+  box-shadow: 0px 2px 8px 0px rgba(25, 31, 40, 0.12),
+    0px 2px 4px 0px rgba(25, 31, 40, 0.04);
+}
+
+.sc_content {
+  padding: 8px 12px;
+  font-size: 17px;
+  line-height: 24px;
+  z-index: 1;
+  flex: 1;
+  text-align: center;
+}
